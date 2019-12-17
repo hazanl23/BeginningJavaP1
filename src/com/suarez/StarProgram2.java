@@ -9,7 +9,7 @@ public class StarProgram2 {
     public static void main(String[] args) {
         star(6, 1);
     }
-
+//this method will create a pattern of stars that adds one star for every line
     public static void star(int line, int star)
     {
         for (int i = 1; i <= line; i++)

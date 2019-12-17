@@ -10,6 +10,7 @@ public class StarProgram {
         star(6,10);
     }
     public static void star(int line, int star)
+    //this method will create a repeating pattern of stars
     {
         for(int i=1;i<=line; i++){
             for(int j=1; j<= star; j++) {

@@ -13,7 +13,7 @@ public class ClassDiamindLoop {
         top();
         bottom();
     }
-
+//this method will code the top part of a diamond
     public static void top() {
         for (int line = 1; line <= Size; line++) {
             for (int space = 1; space <= -line + Size + 1; space++) {
@@ -26,7 +26,7 @@ public class ClassDiamindLoop {
             System.out.println("\\");
         }
     }
-
+//this method will code the bottom part of a diamond
     public static void bottom() {
         for (int line = 1; line <= Size; line++) {
             for (int space = 1; space <= line; space++) {

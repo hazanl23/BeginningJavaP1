@@ -14,7 +14,7 @@ public class ExclamationDiamond {
         System.out.println();
         bottom();
     }
-
+//this method will code the bottom part of a diamond which is filled with exclamation points and no spaces on the side
     public static void bottom() {
         for (int line = 1; line <= Size - 1; line++) {
             for (int space = 1; space <= line -1; space++)

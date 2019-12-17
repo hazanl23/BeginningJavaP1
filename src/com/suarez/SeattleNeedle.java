@@ -11,7 +11,7 @@ public class SeattleNeedle {
         middle();
         top();
     }
-
+//this method will determine how many rows of two lines will appear in the pattern
     public static void lines() {
         for (int line = 1; line <= Size; line++) {
             for (int space = 1; space <= Size * 3; space++) {
@@ -20,7 +20,7 @@ public class SeattleNeedle {
             System.out.println("||");
         }
     }
-
+//this method will create the top part of the diamond shape which also appears at the bottom of the pattern
     public static void top() {
         for (int line = 1; line <= Size; line++) {
             for (int space = 1; space <= 3 * Size - 3 * line; space++) {
@@ -43,7 +43,7 @@ public class SeattleNeedle {
         System.out.println("|");
 
     }
-
+//this method will create the bottom part of the diamond shape (filled with forward and back slashes)
     public static void bottom() {
         for (int line = 1; line <= Size; line++) {
             for (int space = 1; space <= 2*line-2; space++) {
@@ -56,7 +56,7 @@ public class SeattleNeedle {
             System.out.println("\\_/");
         }
     }
-
+//this method will create the pattern that appears in the middle of the tower
         public static void middle () {
             for (int line = 1; line <= 4*Size; line++){
                 for(int space = 1; space <= 3*Size-3; space++){

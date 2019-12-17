@@ -11,13 +11,13 @@ public class ClassDiamond {
         Diamond();
         X();
     }
-
+//this code will print the top part of a diamond
         public static void top (){
             System.out.println("  /\\");
             System.out.println(" /  \\");
             System.out.println("/    \\");
         }
-
+//this cide will print the bottom part of a diamond
         public static void bottom (){
             System.out.println("\\    /");
             System.out.println(" \\  /");

@@ -15,7 +15,7 @@ public class StarredDiamonds {
         line();
 
     }
-
+//this method creates the line that appears at the top, middle, and bottom of the pattern
     public static void line() {
         System.out.print("+");
         for (int dash = 1; dash <= 2 * Size + 1; dash++) {
@@ -24,7 +24,7 @@ public class StarredDiamonds {
         }
         System.out.println("+");
     }
-
+//this method creates the top part of the diamond
     public static void top() {
         for (int line = 1; line <= Size; line++) {
             System.out.print("|");
@@ -42,13 +42,13 @@ public class StarredDiamonds {
         }
 
     }
-
+//this method determines the number of spaces between the outer lines and the patterns inside
     public static void spaces(int line) {
         for (int space = 1; space <= -line + Size+1; space++) {
             System.out.print(" ");
         }
     }
-
+//this method creates the bottom part of the diamond
     public static void bottom() {
         for (int line = 1; line <= Size; line++) {
             System.out.print("|");
