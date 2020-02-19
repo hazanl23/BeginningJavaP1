@@ -7,10 +7,9 @@ import java.util.*;
 
 public class hangmanClass {
     //this is a string for all of the possible words for the player to have to guess in the game of Hangman
-    public static String[] words = {"addition", "banana", "computer", "daughter", "early", "frequent", "great", "harmony", "impulse", "journey", "kettle","laugh", "material", "normal", "operation", "physical", "question", "relation", "shame", "theory", "umbrella", "violent", "whistle", "xylophone", "yesterday", "zebra"};
-
-
-
+    public static String[] words = {"addition", "banana", "computer", "daughter", "early", "frequent", "great",
+            "harmony", "impulse", "journey", "kettle","laugh", "material", "normal", "operation", "physical", "question",
+            "relation", "shame", "theory", "umbrella", "violent", "whistle", "xylophone", "yesterday", "zebra"};
 
     //this will print the beginning of the game of hangman once the player says they want to play
     public static void bar() {
@@ -103,7 +102,6 @@ public class hangmanClass {
 //this will print if the player has lost
     public static void loser() {
         System.out.println("You did not guess the word in time.");
-
     }
 
     public static void end() {

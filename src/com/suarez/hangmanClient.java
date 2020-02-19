@@ -64,13 +64,10 @@ public class hangmanClient {
         }
         if (count == 7) {
             hangmanClass.LeftLeg();
-        }
-
-        //this will let the player know they have lost once they run out of turns
-        if (count >= 8) {
             hangmanClass.loser();
             System.out.println("The word was " + word + ".");
         }
+
 
         //this will let the player know they have won if they guess all the letter in time
         if (asterisk.equals(word)) {
